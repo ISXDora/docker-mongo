@@ -4,6 +4,6 @@
 
 echo "Executando container docker com o banco de dados MongoDb"
 
-docker container run --name container-mongodb -p 8084:27017 -e MONGO_INITDB_ROOT_USERNAME="mongo_usr" -e MONGO_INITDB_ROOT_PASSWORD="docker_pwd" -d mongo
+docker container run --name container-mongodb -p 8084:27017 -e MONGO_INITDB_ROOT_USERNAME="mongo_usr" -e MONGO_INITDB_ROOT_PASSWORD="mongo_pwd" -d mongo
 
 echo "Banco de dados iniciado!"

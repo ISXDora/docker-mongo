@@ -38,9 +38,9 @@ Sistema Windows
 
 ### Para acessar o banco de dados em administradores de banco de dados Nosql
 
-Usuário: `docker_usr`
+Usuário root: `mongo_usr`
 
-Senha: `docker_pwd`
+Senha: `mongo_pwd`
 
 Porta local: 8084
 
